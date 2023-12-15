@@ -20,14 +20,14 @@ PZEM004Tv30 pzem(Serial1, 20, 21);
 
 
 //wifi configuration
-const char* ssid = "mi";             // your network SSID (name)
-const char* password = "qwerty123";  // your network password
+const char* ssid = "your network ssid";             // your network SSID (name)
+const char* password = "your network password";  // your network password
 
 WiFiClient client;
 
 //thingspeak configuration
 unsigned long myChannelNumber = 4;
-const char* myWriteAPIKey = "WVKF75PW3GPU8GEA";
+const char* myWriteAPIKey = "your API KEY";
 
 // Timer variables
 unsigned long lastTime = 0;
